@@ -1,0 +1,33 @@
+.container{
+  display: grid;
+  justify-items: center;
+  align-items:   center;
+  grid-template-rows: 1fr 220px 1fr;
+  grid-template-columns: 1fr 220px 1fr;
+}
+.master{
+  position: relative;
+  grid-column: 2;
+  grid-row: 2;
+}
+
+.box{
+  width: 100px;
+  height: 100px;
+  margin: 4px;
+  display: inline-block;
+  text-align: center;
+}
+
+.red{
+  background-color: red;
+}
+.blue{
+  background-color: blue; 
+}
+.green{
+  background-color: green;
+}
+.yellow{
+  background-color: yellow;
+}
