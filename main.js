@@ -5,19 +5,18 @@ btn.addEventListener('click', function () {
         rotate: '+=1turn',
         backgroundColor:'grey',
         backgroundColor: '#C4FEE4',
-        duration: 2000,
+        duration: 3000,
         easing: 'easeInOutQuad'
       });
     
       anime({
         targets: '.box',
-        // left: '240px',
         keyframes: [
            {borderRadius: ['0%', '50%'],
-            duration: 1000},
+            duration: 800},
             {borderRadius: ['50%', '0%'],
-            duration: 1000}
+            duration: 800}
         ],
         easing: 'easeInOutQuad'
       });
-})
+});
